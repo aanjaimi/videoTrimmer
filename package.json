@@ -1,0 +1,22 @@
+{
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "@fastify/multipart": "^8.0.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "fastify-multer": "^2.0.3",
+    "ffmpeg": "^0.0.4",
+    "ts-node": "^10.9.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/ffmpeg": "^1.0.7",
+    "@types/node": "^20.10.4",
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.3"
+  }
+}
