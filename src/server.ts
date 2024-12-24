@@ -7,7 +7,8 @@ const app = build();
 
 app.listen(
   {
-    port: parseInt(process.env.PORT || "4000"),
+    port: parseInt(process.env.PORT || "8080"),
+    host: '0.0.0.0',
   },
   (error, addr) => {
     if (error) {
