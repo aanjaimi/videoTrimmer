@@ -1,8 +1,8 @@
 import fastify, { FastifyBaseLogger, FastifyHttpOptions } from "fastify";
 import { Server } from "http";
-import { uploadRouter } from "./routes/upload.route";
-import { isMulterError, multerParser } from "./utils/multer";
-import { isZodError } from "./utils/errors";
+import { uploadRouter } from "../routes/upload.route";
+import { isMulterError, multerParser } from "../utils/multer";
+import { isZodError } from "../utils/errors";
 
 export const build = (
   opts: FastifyHttpOptions<Server, FastifyBaseLogger> = {

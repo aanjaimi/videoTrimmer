@@ -1,4 +1,4 @@
-import { build } from "./app";
+import { build } from "./app/app";
 import dotenv from "dotenv";
 
 dotenv.config();
