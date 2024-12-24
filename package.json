@@ -1,8 +1,9 @@
 {
-  "main": "server.ts",
+  "main": "dist/server.js",
   "scripts": {
-    "dev": "nodemon",
-    "start": "ts-node server.ts"
+    "build": "tsc",
+    "dev": "nodemon dist/server.js",
+    "start": "node dist/server.js"
   },
   "dependencies": {
     "@fastify/multipart": "^8.0.0",
@@ -10,7 +11,6 @@
     "fastify": "^4.24.3",
     "fastify-multer": "^2.0.3",
     "ffmpeg": "^0.0.4",
-    "ts-node": "^10.9.2",
     "zod": "^3.22.4"
   },
   "devDependencies": {
